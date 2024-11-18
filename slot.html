@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>スロットゲーム</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet" />
+  <link rel="stylesheet" href="css/slot.css">
+</head>
+
+  <body>
+    <section>
+      <h1>😄ようこそ😄<br>ここはスロットゲームコーナーだよ</h1>
+    </section>
+
+    <section id="result">
+        <p>Let's Challenge!</p>
+    </section>
+
+    <section id="slot-frame">
+        <div id="s1" class="reels">
+            <p class="reel">0</p>
+        </div>
+        <div id="s2" class="reels">
+            <p class="reel">0</p>
+        </div>
+        <div id="s3" class="reels">
+            <p class="reel">0</p>
+        </div>
+    </section>
+  
+    <section id="btn-01">
+      <button class="stop-btn" onclick="stop(0)"></button>
+      <button class="stop-btn" onclick="stop(1)"></button>
+      <button class="stop-btn" onclick="stop(2)"></button>
+    </section>
+
+    <section id="btn-02">
+      <button class="start-btn" onclick="start()">START</button>
+    </section>
+    <script src="./js/slot.js"></script>
+  </body>
+
+</html>
